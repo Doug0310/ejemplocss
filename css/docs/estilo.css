@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(0, 87, 58);
+    color: aliceblue;
+    
+    text-align: center;
+}
+header:hover{
+    background-color: saddlebrown;
+}
+
+
+main{
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    background-color: paleturquoise;
+}
+
+.resp{
+    background-color: blueviolet;
+    text-align: center;
+    margin: 0 auto;
+}
+
+table{
+    width: 100%;
+    background-color: white;
+    border: solid 1px rgb(red, green, blue);
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 1px;
+}
+
+table thead {
+    background-color: black;
+    color: white;
+}
+
+table caption{
+    background-color: yellowgreen;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    
+}
+
+table caption:hover{
+    background-color: rgb(241, 187, 219);
+}
+table tr th, table tr td{
+   padding: 15px;
+   font-family:Arial, Helvetica, sans-serif;
+   border: 1px solid #ddd;
+
+}
+
+table tr:nth-child(even){
+    background-color: rgb(235, 138, 11);
+}
+
+table tr:hover{
+    background-color: cornflowerblue;
+
+}
+
+.contenido{
+    background-color: rgb(255, 255, 255);
+}
+
+.lista{
+    background-color: #d5ff95;
+    text-align: left;
+    margin-left: 800px;
+    margin-right: 800px;
+
+}
+
+h1{
+    background-color: blue;
+    text-align: center;
+}
+
+.fondo{
+    background-color: rgb(241, 10, 10);
+}
+
+.fondo2{
+    background-color: rgb(99, 203, 255);
+  width: 100%;
+height: max-content;    
+    
+}
+
+.formulario{
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 40px;
+    width: 25%;
+    height: 800%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    
+    border-color: rgb(9, 0, 113);
+    
+    margin: 0 auto;
+    
+
+}
+
+.enviar{
+    background-color: rgb(242, 12, 39);
+    background-size: 500%;
+    width: 500%;
+    color: #ddd;
+}
